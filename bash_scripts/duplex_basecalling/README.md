@@ -1,4 +1,5 @@
-# script to puplex basecall and demultiplex data
+# script to duplex basecall and demultiplex data
 
 tested with dorado-0.4.2
-assumes Seqkit and Samtools are installed in the respective conda environments, otherwise use full path to executables
+uses the bacterial research model from [rerio](https://github.com/nanoporetech/rerio/tree/master/dorado_models) for basecalling
+assumes seqkit and samtools are installed in the respective conda environments, otherwise use full path to executables
